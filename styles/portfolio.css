@@ -49,6 +49,7 @@ header{
   font-size: 20px;
   font-weight: 600;
   color: #FFFFFF;
+  cursor: pointer;
 }
 #failure{
     width: 67%;
@@ -199,6 +200,7 @@ header{
     font-weight: 600;
     color: #F15B22;
     border: none;
+    cursor: pointer;
 }
 footer{
   width: 100%;
@@ -276,4 +278,5 @@ footer .footer-content{
   font-weight: 600;
   color: #F15B22;
   border: none;
+  cursor: pointer;
 }
