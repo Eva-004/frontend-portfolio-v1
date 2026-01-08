@@ -80,7 +80,7 @@ header{
 }
 #failure .failuer-text{
   padding-top: 150px;
-  width: 416px;
+  width: 320px;
   text-align: left;
 }
 .failuer-text h2{
@@ -113,4 +113,167 @@ header{
 .failuer-text li i{
   width: 24px;
   color: #16D887;
+}
+#myplan{
+  width: 71%;
+  max-width: 1140px;
+  margin:130px 230px 132px 230px;
+}
+#myplan .plans{
+ text-align: center;
+}
+#myplan .plan-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+#myplan .plans h2{
+  margin-bottom: 55px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #151414;
+}
+.plan-content .plan-card{
+  width: 270px;
+}
+.plan-content .plan-card img{
+  width: 90px;
+  height: 90px;
+  margin-bottom: 20px;
+}
+.plan-content .plan-card h3{
+  font-size: 30px;
+  font-weight: bold;
+  color: #151414;
+  margin-bottom: 16px;
+}
+.plan-content .plan-card p{
+  font-size: 25px;
+  font-weight: 300px;
+  color: #737272;
+}
+#motivation{
+     max-width: 1140px;
+     margin: 0 auto;
+     margin-bottom: 130px;
+}
+#motivation .motivation-wrap{
+  position: relative;
+  width:100% ;
+  height: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.bg-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.overlay-image{
+  position: absolute;
+  top:1%;
+  left: 4%;
+  height: 100%;
+  width: 100%;
+}
+.motivation-wrap .section-text{
+  position: absolute;
+  top: 20%;
+  left: 8%;
+}
+.section-text{
+  width: 459px;
+}
+.section-text h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.section-text .btn2{
+  background-color: #FFFFFF;
+    padding: 20px 36px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    border: none;
+}
+footer{
+  width: 100%;
+  max-width: 1600px;
+  background-color: #151414;
+}
+footer .footer-content{
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  padding: 130px 230px;
+  color: white;
+  gap: 331px;
+}
+.footer-content .future-content{
+  width: 400px;
+  text-align: left;
+}
+.future-content h1{
+  font-size: 45px;
+  font-weight: bold;
+  color: #F8F8F8;
+  margin-bottom: 16px;
+}
+.future-content .text{
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.future-content .contact p{
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.future-content ul{
+  margin-top: 16px;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+.future-content ul li{
+  list-style: none;
+}
+.future-content ul li img{
+  width: 46px;
+  height: 46px;
+}
+.subscribe{
+ width: 325px;
+ margin: 0 auto;
+}
+.subscribe p{
+  font-size: 25px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 31px;
+}
+.subscribe form input[type="email"]{
+  width: 325px;
+  padding: 21px 0px 22px 21px;
+  border-radius: 8px;
+  background-color: #151414;
+  font-size: 18px;
+  color: #F3F3F3;
+   border: 1px solid #F3F3F3;
+   margin-bottom: 38px;
+}
+.subscribe .btn3{
+  background-color: #FFFFFF;
+  padding: 20px 36px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #F15B22;
+  border: none;
 }
