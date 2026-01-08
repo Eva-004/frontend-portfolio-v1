@@ -50,3 +50,67 @@ header{
   font-weight: 600;
   color: #FFFFFF;
 }
+#failure{
+    width: 67%;
+    max-width: 1071px;
+    margin: 0 auto;
+    margin-top: 131px;
+    display:flex;
+    align-items: center;
+    gap:87px;
+}
+#failure .image{
+    position: relative;
+    width: 569px;
+    height: 723px;
+    display: flex;
+  align-items:end;
+  justify-content: center;
+}
+#failure .image::before{
+  content:"" ;
+  position: absolute;
+  width: 525px;
+  height: 528px;
+  background-color: #ffd5c4;
+  border-radius: 252px;
+}
+.image img { 
+  position: relative;
+}
+#failure .failuer-text{
+  padding-top: 150px;
+  width: 416px;
+  text-align: left;
+}
+.failuer-text h2{
+  width: 288px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #151414;
+
+}
+.failuer-text p{
+  margin-top: 24px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+.failuer-text ul{
+  margin-top: 16px;
+  text-align: center;
+}
+.failuer-text li{
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap:10px;
+  margin-bottom: 8px;
+}
+.failuer-text li i{
+  width: 24px;
+  color: #16D887;
+}
